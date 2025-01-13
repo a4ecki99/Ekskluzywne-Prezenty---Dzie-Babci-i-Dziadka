@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ekskluzywne prezenty na Dzień Babci i Dziadka - eleganckie statuetki z grawerem.">
+    <title>Ekskluzywne Prezenty - Dzień Babci i Dziadka</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .product-item {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            width: calc(33.333% - 20px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product-item h2 {
+            font-size: 1.5em;
+            margin: 15px 0;
+        }
+        .product-item p {
+            padding: 0 10px;
+            margin: 10px 0;
+            font-size: 1em;
+        }
+        .product-item button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 15px 0;
+        }
+        .product-item button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #4CAF50;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ekskluzywne Prezenty na Dzień Babci i Dziadka</h1>
+        <p>Wyjątkowe statuetki z grawerem, które zachwycą każdego!</p>
+    </header>
+
+    <div class="container">
+        <div class="product">
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300" alt="Statuetka z zegarem">
+                <h2>Statuetka z Zegarem</h2>
+                <p>Elegancka szklana statuetka z możliwością personalizacji grawerem.</p>
+                <p><strong>149,00 zł</strong></p>
+                <button>Zamów teraz</button>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300" alt="Kryształowe Serce">
+                <h2>Kryształowe Serce</h2>
+                <p>Stylowa statuetka w kształcie serca z precyzyjnym zegarem.</p>
+                <p><strong>179,00 zł</strong></p>
+                <button>Zamów teraz</button>
+            </div>
+            <div class="product-item">
+                <img src="https://via.placeholder.com/300" alt="Personalizowana statuetka">
+                <h2>Personalizowana statuetka</h2>
+                <p>Unikalny prezent z dowolnym tekstem graweru w zestawie.</p>
+                <p><strong>129,00 zł</strong></p>
+                <button>Zamów teraz</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Ekskluzywne Prezenty. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
